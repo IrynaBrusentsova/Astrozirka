@@ -1,13 +1,13 @@
 'use strict';
-// const body = document.querySelector('body');
-// console.log(body);
+const body = document.querySelector('body');
+console.log(body);
 
-// const burger = document.querySelector('.navbar-toggler-icon');
-// console.log (burger);
+const burger = document.querySelector('.navbar-toggler-icon');
+console.log (burger);
 
-// burger.addEventListener('click', function(){
-//     body.classList.toggle('lock');
-// });
+burger.addEventListener('click', function(){
+    body.classList.toggle('lock');
+});
 
 
 function onEntry(entry) {

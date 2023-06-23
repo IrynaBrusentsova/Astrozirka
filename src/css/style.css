@@ -20,12 +20,10 @@ body {
   background-color: rgba(248, 245, 79, 0.435);
   background-image: url("../img/white-diamond.png");
   background-repeat: repeat;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", "Ubuntu", sans-serif;
   color: #010101;
-  font-size: 16px;
-  line-height: 27px;
-  margin: 0;
-  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 html {
@@ -189,11 +187,8 @@ i:hover {
 
 /*MOBILE*/
 @media (max-width: 575px) {
-  body.lock {
-    overflow: hidden;
-  }
   body {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
