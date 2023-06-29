@@ -18,11 +18,9 @@ dd {
     padding: 0;
 }
 body {
-    // background-color: rgba(241, 236, 79, 0.435);
     background-color: rgb(248, 245, 79, 0.435);
     background-image: url("../img/white-diamond.png");
     background-repeat: repeat;
-
 
     // font-family: "Roboto", sans-serif;
     font-family: 'Georgia','Ubuntu', sans-serif;
@@ -53,14 +51,6 @@ img{
 
 
 .navbar {
-    // background-color: #be264c;
-    // background-color:  #6600cc;
-    //  background: linear-gradient(to bottom, #9999ff 0%, #9933ff 100%);
-
-    // background: linear-gradient(to bottom, #9999ff 0%, #6600ff 100%);
-    // background: linear-gradient(to bottom, #0066ff 0%, #ffff66 100%);
-
-    // background: linear-gradient(to bottom, #0033cc 0%, #ffff00 100%);
     background: $colorMain;
       
       .container-fluid{
@@ -180,7 +170,6 @@ i{
     overflow: hidden;
     max-width: 100%;
 }
-
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
@@ -191,6 +180,7 @@ i{
     height: 100%;
 }  
 }
+
 .btnUp {
     position: fixed;
     bottom: 10px;
@@ -209,8 +199,7 @@ i{
 
 .btn-up_hide {
     display: none;
-  }
-
+}
 
 .consultation{
     padding-top: 80px; 
