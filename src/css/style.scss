@@ -22,13 +22,12 @@ body {
     background-image: url("../img/white-diamond.png");
     background-repeat: repeat;
 
-    // font-family: "Roboto", sans-serif;
     font-family: 'Georgia','Ubuntu', sans-serif;
+    // font-family: "Roboto", sans-serif;
     // font-family: 'Montserrat', sans-serif;   
     color: #010101;
     font-size: 18px;
-    line-height: 30px;
-    
+    line-height: 30px; 
 }
 
 html{ 
@@ -39,7 +38,6 @@ p {
     margin: 5px;
     padding: 0;
 }
-
 .outline {
     outline: 1px solid #4b4b4b;
 }
@@ -49,10 +47,8 @@ img{
     height: 100%;  
 }
 
-
 .navbar {
-    background: $colorMain;
-      
+    background: $colorMain;  
       .container-fluid{
         .navbar-nav{
             .nav-link{
@@ -148,21 +144,18 @@ i{
     transform: translate(0, 50%);
     transition: all 0.8s ease 0s;
     opacity: 0;
-
     // transition: all 0.8s ease 0s; 
     // opacity: 0;
 
     &.element-show{
     transform: translate(0px, 0px);
     opacity: 1;
-
     // opacity: 1;
     // transition: opacity 1s;
     }
 }
 
-.video{
-    
+.video{   
   .embed-container {
     position: relative;
     padding-bottom: 56.25%;
