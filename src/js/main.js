@@ -59,4 +59,3 @@ const btnUp = {
 }
 
 btnUp.addEventListener();
-

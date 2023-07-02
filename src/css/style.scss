@@ -55,11 +55,14 @@ img{
                     &:hover{
                         color: #ee7008;
                         transition: 0.5s;
-                    }
+                    }                   
                 }
             } 
-        }   
-    }
+    }  
+    
+    
+}
+
 
 .about{ 
     padding-top: 80px;  
@@ -207,6 +210,7 @@ i{
 .news-foto{
     padding-top: 80px; 
 }
+
 
 /*MOBILE*/
 @media (max-width: 575px){
